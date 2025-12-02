@@ -1,4 +1,4 @@
-/* JITHIN PRAKASH – PURE BLACK MODERN THEME 2025 */
+/* JITHIN PRAKASH – PURE BLACK THEME (NO TOGGLE) 2025 */
 :root {
   --bg: #000000;
   --text: #e0e0e0;
@@ -66,7 +66,7 @@ h1 {
   padding: 14px 36px;
   background: var(--primary);
   color: white;
-  border-radius: 2px solid var(--primary);
+  border: 2px solid var(--primary);
   border-radius: 50px;
   text-decoration: none;
   font-weight: 600;
@@ -96,7 +96,6 @@ nav a {
 nav a:hover { color: var(--primary); }
 
 /* Sections */
-.section */
 .section {
   padding: 100px 8%;
   max-width: 1400px;
@@ -185,17 +184,6 @@ footer {
   background: #000;
   color: #666;
   border-top: 1px solid var(--border);
-}
-
-/* Dark/Light Toggle (optional – now starts dark) */
-.theme-toggle {
-  position: fixed;
-  top: 20px;
-  right: 20px;
-  font-size: 1.8rem;
-  cursor: pointer;
-  z-index: 10000;
-  color: gold;
 }
 
 /* Responsive */
